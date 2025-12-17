@@ -11,12 +11,13 @@ Designed for announcements, promotions, and alerts — with optional icons, anim
 
 - ✅ Zero dependencies (DOMPurify optional)
 - ✅ Vanilla JS — no frameworks
-- ✅ Weighted random message rotation
+- ✅ Weighted/Ranked random message rotation
 - ✅ Forward / backward navigation
 - ✅ Font Awesome icon support
 - ✅ Auto-injected CSS (no setup required)
 - ✅ XSS-safe (when DOMPurify is present)
 - ✅ Drop-in usage
+- ✅ Soft Fade In/Out animation
 
 ---
 
