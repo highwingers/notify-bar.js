@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>notify-bar.js Demo</title>
+
+<link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+
+<style>
+  body {
+    font-family: system-ui, sans-serif;
+    margin: 40px;
+  }
+
+  #notify-bar {
+    background: linear-gradient(90deg, #5a2fd8, #3b6df6);
+    color: white;
+    padding: 14px 16px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    max-width: 700px;
+  }
+
+  #notify-bar a {
+    color: inherit;
+    text-decoration: none;
+  }
+</style>
+</head>
+
+<body>
+
+<h2>notify-bar.js Demo</h2>
+
+<div id="notify-bar"></div>
+
+<script>
+window.SmartAzanNotification = {
+  container: "notify-bar",
+  data: [
+    {
+      text: "Follow us on Instagram",
+      link: "https://instagram.com",
+      icon: "fa-instagram",
+      iconClass: "social-instagram",
+      weight: 3
+    },
+    {
+      text: "Watch tutorials on YouTube",
+      link: "https://youtube.com",
+      icon: "fa-youtube",
+      iconClass: "social-youtube",
+      weight: 1
+    },
+    {
+      text: "Visit SmartAzan.com",
+      link: "https://www.smartazan.com",
+      weight: 2
+    }
+  ]
+};
+</script>
+
+<script src="notify-bar.js"></script>
+
+</body>
+</html>
