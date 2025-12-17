@@ -22,7 +22,7 @@ Designed for announcements, promotions, and alerts — with optional icons, anim
 
 ## 📸 Demo
 
-👉 Live Demo: **https://highwingers.github.io/notify-bar/**  
+👉 Live Demo: **https://highwingers.github.io/notify-bar/](https://highwingers.github.io/notify-bar.js/demo.html**  
 ---
 
 ## 🚀 Quick Start
