@@ -28,7 +28,7 @@ Designed for announcements, promotions, and alerts — with optional icons, anim
 
 ## 🚀 Quick Start
 
-### 1. Add a container
+
 ```html
 <div id="notify-bar"></div>
 
